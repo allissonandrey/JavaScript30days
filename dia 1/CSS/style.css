@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    list-style: none;
+    
+
+}
+body{
+    background-image:url(../img/battery.jpg);
+    background-size: cover;
+}
+
+.container{
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    max-height: 100vw;
+    margin: 100px;
+    margin-top: 20vw;
+    padding: 10px;
+}
+.button{
+    border: 1px solid black ;
+    border-radius: 5px;
+    display: flex;
+    align-items : center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, #2D0CAC, #069BDB);
+    opacity: 0.6;
+    
+    
+    
+} 
+.playing{
+    border: 1px solid black ;
+    border-radius: 5px;
+    display: flex;
+    align-items : center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, #069BDB, #2D0CAC);
+    opacity: 0.9;
+}
