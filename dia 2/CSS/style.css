@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+}
+/*centraliza o relogio no meio da tela*/
+.main{
+    display: flex;
+    height: 100vh;
+    align-items:center;
+    justify-content: center;
+
+}
+.clock{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 10px solid black;
+    position: absolute;
+    transition: all 0.5s;
+
+    }
+.hour{
+    height:150px;
+    width: 10px;
+    background-color:rgb(99,12 ,00);
+    z-index: 1;
+    position: absolute;
+    margin-left: 245px;
+    margin-top: 100px;
+    border: 1px solid white;
+}
+
+.minute{
+    position: absolute;
+    height: 150px;
+    width: 12px;
+    background-color: rgb(21,99 ,08);
+    z-index: 2;
+    margin-left: 245px;
+    margin-top: 100px;
+    border: 1px solid white;
+}
+
+.second{
+    position: absolute;
+    height: 150px;
+    width: 15px;
+    background-color: rgb(21,08 ,99);
+    z-index: 1;
+    border-radius: 5px;
+    margin-left: 245px;
+    margin-top: 100px;
+    border: 1px solid white;
+}
